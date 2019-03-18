@@ -1,0 +1,45 @@
+// Collatz-by-kimmy
+digraph {
+	2
+	2 -> 1 [constraint=false]
+	3
+	10
+	3 -> 10 [constraint=false]
+	5
+	10 -> 5 [constraint=false]
+	16
+	5 -> 16 [constraint=false]
+	8
+	16 -> 8 [constraint=false]
+	4
+	8 -> 4 [constraint=false]
+	4 -> 2 [constraint=false]
+	6
+	6 -> 3 [constraint=false]
+	7
+	22
+	7 -> 22 [constraint=false]
+	11
+	22 -> 11 [constraint=false]
+	34
+	11 -> 34 [constraint=false]
+	17
+	34 -> 17 [constraint=false]
+	52
+	17 -> 52 [constraint=false]
+	26
+	52 -> 26 [constraint=false]
+	13
+	26 -> 13 [constraint=false]
+	40
+	13 -> 40 [constraint=false]
+	20
+	40 -> 20 [constraint=false]
+	20 -> 10 [constraint=false]
+	9
+	28
+	9 -> 28 [constraint=false]
+	14
+	28 -> 14 [constraint=false]
+	14 -> 7 [constraint=false]
+}
