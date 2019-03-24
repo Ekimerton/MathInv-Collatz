@@ -1,11 +1,11 @@
 import os
 os.environ["PATH"] += os.pathsep + 'C:/Program Files (x86)/Graphviz2.38/bin'
 from graphviz import Digraph
+import sys
 
-nodeCount = int(input("enter number to go up to: ")) + 1
+#nodeCount = int(input("enter number to go up to: ")) + 1
 
-graph = Digraph(comment='Collatz-by-kimmy')
-edges = []
+#graph = Digraph(comment=('Collatz-by-kimmy' + " - " + str(nodeCount - 1)))
 
 class Node:
     def __init__(self, value):
@@ -13,7 +13,13 @@ class Node:
         self.parents = []
         self.child = None
 
-nodes = [None for i in range(100000)]
+visited = {}
+print(sys.maxsize / 96)
+for i in range(int(sys.maxsize / 96)):
+    visited[i] = False
+
+'''
+nodes = [None for i in range(500000)]
 nodes[1] = Node(1)
 
 for i in range(1, nodeCount):
@@ -40,14 +46,15 @@ for i in range(1, nodeCount):
         else:
             nodes[next].parents.append(nodes[curr])
             nodes[curr].child = nodes[next]
-            edges.append(str(curr), str(next))
+            graph.edge(str(curr), str(next))
             break
 
         nodes[next].parents.append(nodes[curr])
         nodes[curr].child = nodes[next]
-        edges.append(str(curr), str(next))
+        graph.edge(str(curr), str(next))
 
         curr = next
 
 
-graph.render('Collatz-by-kimmy', view=True)
+graph.render(('Collatz-by-kimmy' + " - " + str(nodeCount - 1)), view=True)
+'''

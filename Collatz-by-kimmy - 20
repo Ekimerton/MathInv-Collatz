@@ -1,0 +1,77 @@
+// Collatz-by-kimmy - 20
+digraph {
+	2
+	2 -> 1 [color=brown]
+	3
+	10
+	3 -> 10 [color=royalblue]
+	5
+	10 -> 5 [color=brown]
+	16
+	5 -> 16 [color=royalblue]
+	8
+	16 -> 8 [color=brown]
+	4
+	8 -> 4 [color=brown]
+	4 -> 2 [color=brown]
+	6
+	6 -> 3 [color=brown]
+	7
+	22
+	7 -> 22 [color=royalblue]
+	11
+	22 -> 11 [color=brown]
+	34
+	11 -> 34 [color=royalblue]
+	17
+	34 -> 17 [color=brown]
+	52
+	17 -> 52 [color=royalblue]
+	26
+	52 -> 26 [color=brown]
+	13
+	26 -> 13 [color=brown]
+	40
+	13 -> 40 [color=royalblue]
+	20
+	40 -> 20 [color=brown]
+	20 -> 10 [color=brown]
+	9
+	28
+	9 -> 28 [color=royalblue]
+	14
+	28 -> 14 [color=brown]
+	14 -> 7 [color=brown]
+	12
+	12 -> 6 [color=brown]
+	15
+	46
+	15 -> 46 [color=royalblue]
+	23
+	46 -> 23 [color=brown]
+	70
+	23 -> 70 [color=royalblue]
+	35
+	70 -> 35 [color=brown]
+	106
+	35 -> 106 [color=royalblue]
+	53
+	106 -> 53 [color=brown]
+	160
+	53 -> 160 [color=royalblue]
+	80
+	160 -> 80 [color=brown]
+	80 -> 40 [color=brown]
+	18
+	18 -> 9 [color=brown]
+	19
+	58
+	19 -> 58 [color=royalblue]
+	29
+	58 -> 29 [color=brown]
+	88
+	29 -> 88 [color=royalblue]
+	44
+	88 -> 44 [color=brown]
+	44 -> 22 [color=brown]
+}

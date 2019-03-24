@@ -1,0 +1,5 @@
+// Collatz-by-kimmy - 2
+digraph {
+	2
+	2 -> 1 [color=brown]
+}

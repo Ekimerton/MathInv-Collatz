@@ -14,7 +14,7 @@ dot.node('3')
 dot.node('10')
 dot.node('5')
 
-dot.edges(['21', '42', '84'])
+dot.edge('1', '2')
 dot.edge('16', '8', constraint='false')
 
 
