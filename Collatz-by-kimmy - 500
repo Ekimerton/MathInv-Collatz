@@ -1,0 +1,2133 @@
+// Collatz-by-kimmy - 500
+digraph {
+	2
+	2 -> 1 [color=brown]
+	3
+	10
+	3 -> 10 [color=royalblue]
+	5
+	10 -> 5 [color=brown]
+	16
+	5 -> 16 [color=royalblue]
+	8
+	16 -> 8 [color=brown]
+	4
+	8 -> 4 [color=brown]
+	4 -> 2 [color=brown]
+	6
+	6 -> 3 [color=brown]
+	7
+	22
+	7 -> 22 [color=royalblue]
+	11
+	22 -> 11 [color=brown]
+	34
+	11 -> 34 [color=royalblue]
+	17
+	34 -> 17 [color=brown]
+	52
+	17 -> 52 [color=royalblue]
+	26
+	52 -> 26 [color=brown]
+	13
+	26 -> 13 [color=brown]
+	40
+	13 -> 40 [color=royalblue]
+	20
+	40 -> 20 [color=brown]
+	20 -> 10 [color=brown]
+	9
+	28
+	9 -> 28 [color=royalblue]
+	14
+	28 -> 14 [color=brown]
+	14 -> 7 [color=brown]
+	12
+	12 -> 6 [color=brown]
+	15
+	46
+	15 -> 46 [color=royalblue]
+	23
+	46 -> 23 [color=brown]
+	70
+	23 -> 70 [color=royalblue]
+	35
+	70 -> 35 [color=brown]
+	106
+	35 -> 106 [color=royalblue]
+	53
+	106 -> 53 [color=brown]
+	160
+	53 -> 160 [color=royalblue]
+	80
+	160 -> 80 [color=brown]
+	80 -> 40 [color=brown]
+	18
+	18 -> 9 [color=brown]
+	19
+	58
+	19 -> 58 [color=royalblue]
+	29
+	58 -> 29 [color=brown]
+	88
+	29 -> 88 [color=royalblue]
+	44
+	88 -> 44 [color=brown]
+	44 -> 22 [color=brown]
+	21
+	64
+	21 -> 64 [color=royalblue]
+	32
+	64 -> 32 [color=brown]
+	32 -> 16 [color=brown]
+	24
+	24 -> 12 [color=brown]
+	25
+	76
+	25 -> 76 [color=royalblue]
+	38
+	76 -> 38 [color=brown]
+	38 -> 19 [color=brown]
+	27
+	82
+	27 -> 82 [color=royalblue]
+	41
+	82 -> 41 [color=brown]
+	124
+	41 -> 124 [color=royalblue]
+	62
+	124 -> 62 [color=brown]
+	31
+	62 -> 31 [color=brown]
+	94
+	31 -> 94 [color=royalblue]
+	47
+	94 -> 47 [color=brown]
+	142
+	47 -> 142 [color=royalblue]
+	71
+	142 -> 71 [color=brown]
+	214
+	71 -> 214 [color=royalblue]
+	107
+	214 -> 107 [color=brown]
+	322
+	107 -> 322 [color=royalblue]
+	161
+	322 -> 161 [color=brown]
+	484
+	161 -> 484 [color=royalblue]
+	242
+	484 -> 242 [color=brown]
+	121
+	242 -> 121 [color=brown]
+	364
+	121 -> 364 [color=royalblue]
+	182
+	364 -> 182 [color=brown]
+	91
+	182 -> 91 [color=brown]
+	274
+	91 -> 274 [color=royalblue]
+	137
+	274 -> 137 [color=brown]
+	412
+	137 -> 412 [color=royalblue]
+	206
+	412 -> 206 [color=brown]
+	103
+	206 -> 103 [color=brown]
+	310
+	103 -> 310 [color=royalblue]
+	155
+	310 -> 155 [color=brown]
+	466
+	155 -> 466 [color=royalblue]
+	233
+	466 -> 233 [color=brown]
+	700
+	233 -> 700 [color=royalblue]
+	350
+	700 -> 350 [color=brown]
+	175
+	350 -> 175 [color=brown]
+	526
+	175 -> 526 [color=royalblue]
+	263
+	526 -> 263 [color=brown]
+	790
+	263 -> 790 [color=royalblue]
+	395
+	790 -> 395 [color=brown]
+	1186
+	395 -> 1186 [color=royalblue]
+	593
+	1186 -> 593 [color=brown]
+	1780
+	593 -> 1780 [color=royalblue]
+	890
+	1780 -> 890 [color=brown]
+	445
+	890 -> 445 [color=brown]
+	1336
+	445 -> 1336 [color=royalblue]
+	668
+	1336 -> 668 [color=brown]
+	334
+	668 -> 334 [color=brown]
+	167
+	334 -> 167 [color=brown]
+	502
+	167 -> 502 [color=royalblue]
+	251
+	502 -> 251 [color=brown]
+	754
+	251 -> 754 [color=royalblue]
+	377
+	754 -> 377 [color=brown]
+	1132
+	377 -> 1132 [color=royalblue]
+	566
+	1132 -> 566 [color=brown]
+	283
+	566 -> 283 [color=brown]
+	850
+	283 -> 850 [color=royalblue]
+	425
+	850 -> 425 [color=brown]
+	1276
+	425 -> 1276 [color=royalblue]
+	638
+	1276 -> 638 [color=brown]
+	319
+	638 -> 319 [color=brown]
+	958
+	319 -> 958 [color=royalblue]
+	479
+	958 -> 479 [color=brown]
+	1438
+	479 -> 1438 [color=royalblue]
+	719
+	1438 -> 719 [color=brown]
+	2158
+	719 -> 2158 [color=royalblue]
+	1079
+	2158 -> 1079 [color=brown]
+	3238
+	1079 -> 3238 [color=royalblue]
+	1619
+	3238 -> 1619 [color=brown]
+	4858
+	1619 -> 4858 [color=royalblue]
+	2429
+	4858 -> 2429 [color=brown]
+	7288
+	2429 -> 7288 [color=royalblue]
+	3644
+	7288 -> 3644 [color=brown]
+	1822
+	3644 -> 1822 [color=brown]
+	911
+	1822 -> 911 [color=brown]
+	2734
+	911 -> 2734 [color=royalblue]
+	1367
+	2734 -> 1367 [color=brown]
+	4102
+	1367 -> 4102 [color=royalblue]
+	2051
+	4102 -> 2051 [color=brown]
+	6154
+	2051 -> 6154 [color=royalblue]
+	3077
+	6154 -> 3077 [color=brown]
+	9232
+	3077 -> 9232 [color=royalblue]
+	4616
+	9232 -> 4616 [color=brown]
+	2308
+	4616 -> 2308 [color=brown]
+	1154
+	2308 -> 1154 [color=brown]
+	577
+	1154 -> 577 [color=brown]
+	1732
+	577 -> 1732 [color=royalblue]
+	866
+	1732 -> 866 [color=brown]
+	433
+	866 -> 433 [color=brown]
+	1300
+	433 -> 1300 [color=royalblue]
+	650
+	1300 -> 650 [color=brown]
+	325
+	650 -> 325 [color=brown]
+	976
+	325 -> 976 [color=royalblue]
+	488
+	976 -> 488 [color=brown]
+	244
+	488 -> 244 [color=brown]
+	122
+	244 -> 122 [color=brown]
+	61
+	122 -> 61 [color=brown]
+	184
+	61 -> 184 [color=royalblue]
+	92
+	184 -> 92 [color=brown]
+	92 -> 46 [color=brown]
+	30
+	30 -> 15 [color=brown]
+	33
+	100
+	33 -> 100 [color=royalblue]
+	50
+	100 -> 50 [color=brown]
+	50 -> 25 [color=brown]
+	36
+	36 -> 18 [color=brown]
+	37
+	112
+	37 -> 112 [color=royalblue]
+	56
+	112 -> 56 [color=brown]
+	56 -> 28 [color=brown]
+	39
+	118
+	39 -> 118 [color=royalblue]
+	59
+	118 -> 59 [color=brown]
+	178
+	59 -> 178 [color=royalblue]
+	89
+	178 -> 89 [color=brown]
+	268
+	89 -> 268 [color=royalblue]
+	134
+	268 -> 134 [color=brown]
+	67
+	134 -> 67 [color=brown]
+	202
+	67 -> 202 [color=royalblue]
+	101
+	202 -> 101 [color=brown]
+	304
+	101 -> 304 [color=royalblue]
+	152
+	304 -> 152 [color=brown]
+	152 -> 76 [color=brown]
+	42
+	42 -> 21 [color=brown]
+	43
+	130
+	43 -> 130 [color=royalblue]
+	65
+	130 -> 65 [color=brown]
+	196
+	65 -> 196 [color=royalblue]
+	98
+	196 -> 98 [color=brown]
+	49
+	98 -> 49 [color=brown]
+	148
+	49 -> 148 [color=royalblue]
+	74
+	148 -> 74 [color=brown]
+	74 -> 37 [color=brown]
+	45
+	136
+	45 -> 136 [color=royalblue]
+	68
+	136 -> 68 [color=brown]
+	68 -> 34 [color=brown]
+	48
+	48 -> 24 [color=brown]
+	51
+	154
+	51 -> 154 [color=royalblue]
+	77
+	154 -> 77 [color=brown]
+	232
+	77 -> 232 [color=royalblue]
+	116
+	232 -> 116 [color=brown]
+	116 -> 58 [color=brown]
+	54
+	54 -> 27 [color=brown]
+	55
+	166
+	55 -> 166 [color=royalblue]
+	83
+	166 -> 83 [color=brown]
+	250
+	83 -> 250 [color=royalblue]
+	125
+	250 -> 125 [color=brown]
+	376
+	125 -> 376 [color=royalblue]
+	188
+	376 -> 188 [color=brown]
+	188 -> 94 [color=brown]
+	57
+	172
+	57 -> 172 [color=royalblue]
+	86
+	172 -> 86 [color=brown]
+	86 -> 43 [color=brown]
+	60
+	60 -> 30 [color=brown]
+	63
+	190
+	63 -> 190 [color=royalblue]
+	95
+	190 -> 95 [color=brown]
+	286
+	95 -> 286 [color=royalblue]
+	143
+	286 -> 143 [color=brown]
+	430
+	143 -> 430 [color=royalblue]
+	215
+	430 -> 215 [color=brown]
+	646
+	215 -> 646 [color=royalblue]
+	323
+	646 -> 323 [color=brown]
+	970
+	323 -> 970 [color=royalblue]
+	485
+	970 -> 485 [color=brown]
+	1456
+	485 -> 1456 [color=royalblue]
+	728
+	1456 -> 728 [color=brown]
+	728 -> 364 [color=brown]
+	66
+	66 -> 33 [color=brown]
+	69
+	208
+	69 -> 208 [color=royalblue]
+	104
+	208 -> 104 [color=brown]
+	104 -> 52 [color=brown]
+	72
+	72 -> 36 [color=brown]
+	73
+	220
+	73 -> 220 [color=royalblue]
+	110
+	220 -> 110 [color=brown]
+	110 -> 55 [color=brown]
+	75
+	226
+	75 -> 226 [color=royalblue]
+	113
+	226 -> 113 [color=brown]
+	340
+	113 -> 340 [color=royalblue]
+	170
+	340 -> 170 [color=brown]
+	85
+	170 -> 85 [color=brown]
+	256
+	85 -> 256 [color=royalblue]
+	128
+	256 -> 128 [color=brown]
+	128 -> 64 [color=brown]
+	78
+	78 -> 39 [color=brown]
+	79
+	238
+	79 -> 238 [color=royalblue]
+	119
+	238 -> 119 [color=brown]
+	358
+	119 -> 358 [color=royalblue]
+	179
+	358 -> 179 [color=brown]
+	538
+	179 -> 538 [color=royalblue]
+	269
+	538 -> 269 [color=brown]
+	808
+	269 -> 808 [color=royalblue]
+	404
+	808 -> 404 [color=brown]
+	404 -> 202 [color=brown]
+	81
+	81 -> 244 [color=royalblue]
+	84
+	84 -> 42 [color=brown]
+	87
+	262
+	87 -> 262 [color=royalblue]
+	131
+	262 -> 131 [color=brown]
+	394
+	131 -> 394 [color=royalblue]
+	197
+	394 -> 197 [color=brown]
+	592
+	197 -> 592 [color=royalblue]
+	296
+	592 -> 296 [color=brown]
+	296 -> 148 [color=brown]
+	90
+	90 -> 45 [color=brown]
+	93
+	280
+	93 -> 280 [color=royalblue]
+	140
+	280 -> 140 [color=brown]
+	140 -> 70 [color=brown]
+	96
+	96 -> 48 [color=brown]
+	97
+	292
+	97 -> 292 [color=royalblue]
+	146
+	292 -> 146 [color=brown]
+	146 -> 73 [color=brown]
+	99
+	298
+	99 -> 298 [color=royalblue]
+	149
+	298 -> 149 [color=brown]
+	448
+	149 -> 448 [color=royalblue]
+	224
+	448 -> 224 [color=brown]
+	224 -> 112 [color=brown]
+	102
+	102 -> 51 [color=brown]
+	105
+	316
+	105 -> 316 [color=royalblue]
+	158
+	316 -> 158 [color=brown]
+	158 -> 79 [color=brown]
+	108
+	108 -> 54 [color=brown]
+	109
+	328
+	109 -> 328 [color=royalblue]
+	164
+	328 -> 164 [color=brown]
+	164 -> 82 [color=brown]
+	111
+	111 -> 334 [color=royalblue]
+	114
+	114 -> 57 [color=brown]
+	115
+	346
+	115 -> 346 [color=royalblue]
+	173
+	346 -> 173 [color=brown]
+	520
+	173 -> 520 [color=royalblue]
+	260
+	520 -> 260 [color=brown]
+	260 -> 130 [color=brown]
+	117
+	352
+	117 -> 352 [color=royalblue]
+	176
+	352 -> 176 [color=brown]
+	176 -> 88 [color=brown]
+	120
+	120 -> 60 [color=brown]
+	123
+	370
+	123 -> 370 [color=royalblue]
+	185
+	370 -> 185 [color=brown]
+	556
+	185 -> 556 [color=royalblue]
+	278
+	556 -> 278 [color=brown]
+	139
+	278 -> 139 [color=brown]
+	418
+	139 -> 418 [color=royalblue]
+	209
+	418 -> 209 [color=brown]
+	628
+	209 -> 628 [color=royalblue]
+	314
+	628 -> 314 [color=brown]
+	157
+	314 -> 157 [color=brown]
+	472
+	157 -> 472 [color=royalblue]
+	236
+	472 -> 236 [color=brown]
+	236 -> 118 [color=brown]
+	126
+	126 -> 63 [color=brown]
+	127
+	382
+	127 -> 382 [color=royalblue]
+	191
+	382 -> 191 [color=brown]
+	574
+	191 -> 574 [color=royalblue]
+	287
+	574 -> 287 [color=brown]
+	862
+	287 -> 862 [color=royalblue]
+	431
+	862 -> 431 [color=brown]
+	1294
+	431 -> 1294 [color=royalblue]
+	647
+	1294 -> 647 [color=brown]
+	1942
+	647 -> 1942 [color=royalblue]
+	971
+	1942 -> 971 [color=brown]
+	2914
+	971 -> 2914 [color=royalblue]
+	1457
+	2914 -> 1457 [color=brown]
+	4372
+	1457 -> 4372 [color=royalblue]
+	2186
+	4372 -> 2186 [color=brown]
+	1093
+	2186 -> 1093 [color=brown]
+	3280
+	1093 -> 3280 [color=royalblue]
+	1640
+	3280 -> 1640 [color=brown]
+	820
+	1640 -> 820 [color=brown]
+	410
+	820 -> 410 [color=brown]
+	205
+	410 -> 205 [color=brown]
+	616
+	205 -> 616 [color=royalblue]
+	308
+	616 -> 308 [color=brown]
+	308 -> 154 [color=brown]
+	129
+	388
+	129 -> 388 [color=royalblue]
+	194
+	388 -> 194 [color=brown]
+	194 -> 97 [color=brown]
+	132
+	132 -> 66 [color=brown]
+	133
+	400
+	133 -> 400 [color=royalblue]
+	200
+	400 -> 200 [color=brown]
+	200 -> 100 [color=brown]
+	135
+	406
+	135 -> 406 [color=royalblue]
+	203
+	406 -> 203 [color=brown]
+	610
+	203 -> 610 [color=royalblue]
+	305
+	610 -> 305 [color=brown]
+	916
+	305 -> 916 [color=royalblue]
+	458
+	916 -> 458 [color=brown]
+	229
+	458 -> 229 [color=brown]
+	688
+	229 -> 688 [color=royalblue]
+	344
+	688 -> 344 [color=brown]
+	344 -> 172 [color=brown]
+	138
+	138 -> 69 [color=brown]
+	141
+	424
+	141 -> 424 [color=royalblue]
+	212
+	424 -> 212 [color=brown]
+	212 -> 106 [color=brown]
+	144
+	144 -> 72 [color=brown]
+	145
+	436
+	145 -> 436 [color=royalblue]
+	218
+	436 -> 218 [color=brown]
+	218 -> 109 [color=brown]
+	147
+	442
+	147 -> 442 [color=royalblue]
+	221
+	442 -> 221 [color=brown]
+	664
+	221 -> 664 [color=royalblue]
+	332
+	664 -> 332 [color=brown]
+	332 -> 166 [color=brown]
+	150
+	150 -> 75 [color=brown]
+	151
+	454
+	151 -> 454 [color=royalblue]
+	227
+	454 -> 227 [color=brown]
+	682
+	227 -> 682 [color=royalblue]
+	341
+	682 -> 341 [color=brown]
+	1024
+	341 -> 1024 [color=royalblue]
+	512
+	1024 -> 512 [color=brown]
+	512 -> 256 [color=brown]
+	153
+	460
+	153 -> 460 [color=royalblue]
+	230
+	460 -> 230 [color=brown]
+	230 -> 115 [color=brown]
+	156
+	156 -> 78 [color=brown]
+	159
+	478
+	159 -> 478 [color=royalblue]
+	239
+	478 -> 239 [color=brown]
+	718
+	239 -> 718 [color=royalblue]
+	359
+	718 -> 359 [color=brown]
+	1078
+	359 -> 1078 [color=royalblue]
+	539
+	1078 -> 539 [color=brown]
+	1618
+	539 -> 1618 [color=royalblue]
+	809
+	1618 -> 809 [color=brown]
+	2428
+	809 -> 2428 [color=royalblue]
+	1214
+	2428 -> 1214 [color=brown]
+	607
+	1214 -> 607 [color=brown]
+	607 -> 1822 [color=royalblue]
+	162
+	162 -> 81 [color=brown]
+	163
+	490
+	163 -> 490 [color=royalblue]
+	245
+	490 -> 245 [color=brown]
+	736
+	245 -> 736 [color=royalblue]
+	368
+	736 -> 368 [color=brown]
+	368 -> 184 [color=brown]
+	165
+	496
+	165 -> 496 [color=royalblue]
+	248
+	496 -> 248 [color=brown]
+	248 -> 124 [color=brown]
+	168
+	168 -> 84 [color=brown]
+	169
+	508
+	169 -> 508 [color=royalblue]
+	254
+	508 -> 254 [color=brown]
+	254 -> 127 [color=brown]
+	171
+	514
+	171 -> 514 [color=royalblue]
+	257
+	514 -> 257 [color=brown]
+	772
+	257 -> 772 [color=royalblue]
+	386
+	772 -> 386 [color=brown]
+	193
+	386 -> 193 [color=brown]
+	580
+	193 -> 580 [color=royalblue]
+	290
+	580 -> 290 [color=brown]
+	290 -> 145 [color=brown]
+	174
+	174 -> 87 [color=brown]
+	177
+	532
+	177 -> 532 [color=royalblue]
+	266
+	532 -> 266 [color=brown]
+	266 -> 133 [color=brown]
+	180
+	180 -> 90 [color=brown]
+	181
+	544
+	181 -> 544 [color=royalblue]
+	272
+	544 -> 272 [color=brown]
+	272 -> 136 [color=brown]
+	183
+	550
+	183 -> 550 [color=royalblue]
+	275
+	550 -> 275 [color=brown]
+	826
+	275 -> 826 [color=royalblue]
+	413
+	826 -> 413 [color=brown]
+	1240
+	413 -> 1240 [color=royalblue]
+	620
+	1240 -> 620 [color=brown]
+	620 -> 310 [color=brown]
+	186
+	186 -> 93 [color=brown]
+	187
+	562
+	187 -> 562 [color=royalblue]
+	281
+	562 -> 281 [color=brown]
+	844
+	281 -> 844 [color=royalblue]
+	422
+	844 -> 422 [color=brown]
+	211
+	422 -> 211 [color=brown]
+	634
+	211 -> 634 [color=royalblue]
+	317
+	634 -> 317 [color=brown]
+	952
+	317 -> 952 [color=royalblue]
+	476
+	952 -> 476 [color=brown]
+	476 -> 238 [color=brown]
+	189
+	568
+	189 -> 568 [color=royalblue]
+	284
+	568 -> 284 [color=brown]
+	284 -> 142 [color=brown]
+	192
+	192 -> 96 [color=brown]
+	195
+	586
+	195 -> 586 [color=royalblue]
+	293
+	586 -> 293 [color=brown]
+	880
+	293 -> 880 [color=royalblue]
+	440
+	880 -> 440 [color=brown]
+	440 -> 220 [color=brown]
+	198
+	198 -> 99 [color=brown]
+	199
+	598
+	199 -> 598 [color=royalblue]
+	299
+	598 -> 299 [color=brown]
+	898
+	299 -> 898 [color=royalblue]
+	449
+	898 -> 449 [color=brown]
+	1348
+	449 -> 1348 [color=royalblue]
+	674
+	1348 -> 674 [color=brown]
+	337
+	674 -> 337 [color=brown]
+	1012
+	337 -> 1012 [color=royalblue]
+	506
+	1012 -> 506 [color=brown]
+	253
+	506 -> 253 [color=brown]
+	760
+	253 -> 760 [color=royalblue]
+	380
+	760 -> 380 [color=brown]
+	380 -> 190 [color=brown]
+	201
+	604
+	201 -> 604 [color=royalblue]
+	302
+	604 -> 302 [color=brown]
+	302 -> 151 [color=brown]
+	204
+	204 -> 102 [color=brown]
+	207
+	622
+	207 -> 622 [color=royalblue]
+	311
+	622 -> 311 [color=brown]
+	934
+	311 -> 934 [color=royalblue]
+	467
+	934 -> 467 [color=brown]
+	1402
+	467 -> 1402 [color=royalblue]
+	701
+	1402 -> 701 [color=brown]
+	2104
+	701 -> 2104 [color=royalblue]
+	1052
+	2104 -> 1052 [color=brown]
+	1052 -> 526 [color=brown]
+	210
+	210 -> 105 [color=brown]
+	213
+	640
+	213 -> 640 [color=royalblue]
+	320
+	640 -> 320 [color=brown]
+	320 -> 160 [color=brown]
+	216
+	216 -> 108 [color=brown]
+	217
+	652
+	217 -> 652 [color=royalblue]
+	326
+	652 -> 326 [color=brown]
+	326 -> 163 [color=brown]
+	219
+	658
+	219 -> 658 [color=royalblue]
+	329
+	658 -> 329 [color=brown]
+	988
+	329 -> 988 [color=royalblue]
+	494
+	988 -> 494 [color=brown]
+	247
+	494 -> 247 [color=brown]
+	742
+	247 -> 742 [color=royalblue]
+	371
+	742 -> 371 [color=brown]
+	1114
+	371 -> 1114 [color=royalblue]
+	557
+	1114 -> 557 [color=brown]
+	1672
+	557 -> 1672 [color=royalblue]
+	836
+	1672 -> 836 [color=brown]
+	836 -> 418 [color=brown]
+	222
+	222 -> 111 [color=brown]
+	223
+	670
+	223 -> 670 [color=royalblue]
+	335
+	670 -> 335 [color=brown]
+	1006
+	335 -> 1006 [color=royalblue]
+	503
+	1006 -> 503 [color=brown]
+	1510
+	503 -> 1510 [color=royalblue]
+	755
+	1510 -> 755 [color=brown]
+	2266
+	755 -> 2266 [color=royalblue]
+	1133
+	2266 -> 1133 [color=brown]
+	3400
+	1133 -> 3400 [color=royalblue]
+	1700
+	3400 -> 1700 [color=brown]
+	1700 -> 850 [color=brown]
+	225
+	676
+	225 -> 676 [color=royalblue]
+	338
+	676 -> 338 [color=brown]
+	338 -> 169 [color=brown]
+	228
+	228 -> 114 [color=brown]
+	231
+	694
+	231 -> 694 [color=royalblue]
+	347
+	694 -> 347 [color=brown]
+	1042
+	347 -> 1042 [color=royalblue]
+	521
+	1042 -> 521 [color=brown]
+	1564
+	521 -> 1564 [color=royalblue]
+	782
+	1564 -> 782 [color=brown]
+	391
+	782 -> 391 [color=brown]
+	1174
+	391 -> 1174 [color=royalblue]
+	587
+	1174 -> 587 [color=brown]
+	1762
+	587 -> 1762 [color=royalblue]
+	881
+	1762 -> 881 [color=brown]
+	2644
+	881 -> 2644 [color=royalblue]
+	1322
+	2644 -> 1322 [color=brown]
+	661
+	1322 -> 661 [color=brown]
+	1984
+	661 -> 1984 [color=royalblue]
+	992
+	1984 -> 992 [color=brown]
+	992 -> 496 [color=brown]
+	234
+	234 -> 117 [color=brown]
+	235
+	706
+	235 -> 706 [color=royalblue]
+	353
+	706 -> 353 [color=brown]
+	1060
+	353 -> 1060 [color=royalblue]
+	530
+	1060 -> 530 [color=brown]
+	265
+	530 -> 265 [color=brown]
+	796
+	265 -> 796 [color=royalblue]
+	398
+	796 -> 398 [color=brown]
+	398 -> 199 [color=brown]
+	237
+	712
+	237 -> 712 [color=royalblue]
+	356
+	712 -> 356 [color=brown]
+	356 -> 178 [color=brown]
+	240
+	240 -> 120 [color=brown]
+	241
+	724
+	241 -> 724 [color=royalblue]
+	362
+	724 -> 362 [color=brown]
+	362 -> 181 [color=brown]
+	243
+	730
+	243 -> 730 [color=royalblue]
+	365
+	730 -> 365 [color=brown]
+	1096
+	365 -> 1096 [color=royalblue]
+	548
+	1096 -> 548 [color=brown]
+	548 -> 274 [color=brown]
+	246
+	246 -> 123 [color=brown]
+	249
+	748
+	249 -> 748 [color=royalblue]
+	374
+	748 -> 374 [color=brown]
+	374 -> 187 [color=brown]
+	252
+	252 -> 126 [color=brown]
+	255
+	766
+	255 -> 766 [color=royalblue]
+	383
+	766 -> 383 [color=brown]
+	1150
+	383 -> 1150 [color=royalblue]
+	575
+	1150 -> 575 [color=brown]
+	1726
+	575 -> 1726 [color=royalblue]
+	863
+	1726 -> 863 [color=brown]
+	2590
+	863 -> 2590 [color=royalblue]
+	1295
+	2590 -> 1295 [color=brown]
+	3886
+	1295 -> 3886 [color=royalblue]
+	1943
+	3886 -> 1943 [color=brown]
+	5830
+	1943 -> 5830 [color=royalblue]
+	2915
+	5830 -> 2915 [color=brown]
+	8746
+	2915 -> 8746 [color=royalblue]
+	4373
+	8746 -> 4373 [color=brown]
+	13120
+	4373 -> 13120 [color=royalblue]
+	6560
+	13120 -> 6560 [color=brown]
+	6560 -> 3280 [color=brown]
+	258
+	258 -> 129 [color=brown]
+	259
+	778
+	259 -> 778 [color=royalblue]
+	389
+	778 -> 389 [color=brown]
+	1168
+	389 -> 1168 [color=royalblue]
+	584
+	1168 -> 584 [color=brown]
+	584 -> 292 [color=brown]
+	261
+	784
+	261 -> 784 [color=royalblue]
+	392
+	784 -> 392 [color=brown]
+	392 -> 196 [color=brown]
+	264
+	264 -> 132 [color=brown]
+	267
+	802
+	267 -> 802 [color=royalblue]
+	401
+	802 -> 401 [color=brown]
+	1204
+	401 -> 1204 [color=royalblue]
+	602
+	1204 -> 602 [color=brown]
+	301
+	602 -> 301 [color=brown]
+	904
+	301 -> 904 [color=royalblue]
+	452
+	904 -> 452 [color=brown]
+	452 -> 226 [color=brown]
+	270
+	270 -> 135 [color=brown]
+	271
+	814
+	271 -> 814 [color=royalblue]
+	407
+	814 -> 407 [color=brown]
+	1222
+	407 -> 1222 [color=royalblue]
+	611
+	1222 -> 611 [color=brown]
+	1834
+	611 -> 1834 [color=royalblue]
+	917
+	1834 -> 917 [color=brown]
+	2752
+	917 -> 2752 [color=royalblue]
+	1376
+	2752 -> 1376 [color=brown]
+	1376 -> 688 [color=brown]
+	273
+	273 -> 820 [color=royalblue]
+	276
+	276 -> 138 [color=brown]
+	277
+	832
+	277 -> 832 [color=royalblue]
+	416
+	832 -> 416 [color=brown]
+	416 -> 208 [color=brown]
+	279
+	838
+	279 -> 838 [color=royalblue]
+	419
+	838 -> 419 [color=brown]
+	1258
+	419 -> 1258 [color=royalblue]
+	629
+	1258 -> 629 [color=brown]
+	1888
+	629 -> 1888 [color=royalblue]
+	944
+	1888 -> 944 [color=brown]
+	944 -> 472 [color=brown]
+	282
+	282 -> 141 [color=brown]
+	285
+	856
+	285 -> 856 [color=royalblue]
+	428
+	856 -> 428 [color=brown]
+	428 -> 214 [color=brown]
+	288
+	288 -> 144 [color=brown]
+	289
+	868
+	289 -> 868 [color=royalblue]
+	434
+	868 -> 434 [color=brown]
+	434 -> 217 [color=brown]
+	291
+	874
+	291 -> 874 [color=royalblue]
+	437
+	874 -> 437 [color=brown]
+	1312
+	437 -> 1312 [color=royalblue]
+	656
+	1312 -> 656 [color=brown]
+	656 -> 328 [color=brown]
+	294
+	294 -> 147 [color=brown]
+	295
+	886
+	295 -> 886 [color=royalblue]
+	443
+	886 -> 443 [color=brown]
+	1330
+	443 -> 1330 [color=royalblue]
+	665
+	1330 -> 665 [color=brown]
+	1996
+	665 -> 1996 [color=royalblue]
+	998
+	1996 -> 998 [color=brown]
+	499
+	998 -> 499 [color=brown]
+	1498
+	499 -> 1498 [color=royalblue]
+	749
+	1498 -> 749 [color=brown]
+	2248
+	749 -> 2248 [color=royalblue]
+	1124
+	2248 -> 1124 [color=brown]
+	1124 -> 562 [color=brown]
+	297
+	892
+	297 -> 892 [color=royalblue]
+	446
+	892 -> 446 [color=brown]
+	446 -> 223 [color=brown]
+	300
+	300 -> 150 [color=brown]
+	303
+	910
+	303 -> 910 [color=royalblue]
+	455
+	910 -> 455 [color=brown]
+	1366
+	455 -> 1366 [color=royalblue]
+	683
+	1366 -> 683 [color=brown]
+	2050
+	683 -> 2050 [color=royalblue]
+	1025
+	2050 -> 1025 [color=brown]
+	3076
+	1025 -> 3076 [color=royalblue]
+	1538
+	3076 -> 1538 [color=brown]
+	769
+	1538 -> 769 [color=brown]
+	769 -> 2308 [color=royalblue]
+	306
+	306 -> 153 [color=brown]
+	307
+	922
+	307 -> 922 [color=royalblue]
+	461
+	922 -> 461 [color=brown]
+	1384
+	461 -> 1384 [color=royalblue]
+	692
+	1384 -> 692 [color=brown]
+	692 -> 346 [color=brown]
+	309
+	928
+	309 -> 928 [color=royalblue]
+	464
+	928 -> 464 [color=brown]
+	464 -> 232 [color=brown]
+	312
+	312 -> 156 [color=brown]
+	313
+	940
+	313 -> 940 [color=royalblue]
+	470
+	940 -> 470 [color=brown]
+	470 -> 235 [color=brown]
+	315
+	946
+	315 -> 946 [color=royalblue]
+	473
+	946 -> 473 [color=brown]
+	1420
+	473 -> 1420 [color=royalblue]
+	710
+	1420 -> 710 [color=brown]
+	355
+	710 -> 355 [color=brown]
+	1066
+	355 -> 1066 [color=royalblue]
+	533
+	1066 -> 533 [color=brown]
+	1600
+	533 -> 1600 [color=royalblue]
+	800
+	1600 -> 800 [color=brown]
+	800 -> 400 [color=brown]
+	318
+	318 -> 159 [color=brown]
+	321
+	964
+	321 -> 964 [color=royalblue]
+	482
+	964 -> 482 [color=brown]
+	482 -> 241 [color=brown]
+	324
+	324 -> 162 [color=brown]
+	327
+	982
+	327 -> 982 [color=royalblue]
+	491
+	982 -> 491 [color=brown]
+	1474
+	491 -> 1474 [color=royalblue]
+	737
+	1474 -> 737 [color=brown]
+	2212
+	737 -> 2212 [color=royalblue]
+	1106
+	2212 -> 1106 [color=brown]
+	553
+	1106 -> 553 [color=brown]
+	1660
+	553 -> 1660 [color=royalblue]
+	830
+	1660 -> 830 [color=brown]
+	415
+	830 -> 415 [color=brown]
+	1246
+	415 -> 1246 [color=royalblue]
+	623
+	1246 -> 623 [color=brown]
+	1870
+	623 -> 1870 [color=royalblue]
+	935
+	1870 -> 935 [color=brown]
+	2806
+	935 -> 2806 [color=royalblue]
+	1403
+	2806 -> 1403 [color=brown]
+	4210
+	1403 -> 4210 [color=royalblue]
+	2105
+	4210 -> 2105 [color=brown]
+	6316
+	2105 -> 6316 [color=royalblue]
+	3158
+	6316 -> 3158 [color=brown]
+	1579
+	3158 -> 1579 [color=brown]
+	4738
+	1579 -> 4738 [color=royalblue]
+	2369
+	4738 -> 2369 [color=brown]
+	7108
+	2369 -> 7108 [color=royalblue]
+	3554
+	7108 -> 3554 [color=brown]
+	1777
+	3554 -> 1777 [color=brown]
+	5332
+	1777 -> 5332 [color=royalblue]
+	2666
+	5332 -> 2666 [color=brown]
+	1333
+	2666 -> 1333 [color=brown]
+	4000
+	1333 -> 4000 [color=royalblue]
+	2000
+	4000 -> 2000 [color=brown]
+	1000
+	2000 -> 1000 [color=brown]
+	500
+	1000 -> 500 [color=brown]
+	500 -> 250 [color=brown]
+	330
+	330 -> 165 [color=brown]
+	331
+	994
+	331 -> 994 [color=royalblue]
+	497
+	994 -> 497 [color=brown]
+	1492
+	497 -> 1492 [color=royalblue]
+	746
+	1492 -> 746 [color=brown]
+	373
+	746 -> 373 [color=brown]
+	1120
+	373 -> 1120 [color=royalblue]
+	560
+	1120 -> 560 [color=brown]
+	560 -> 280 [color=brown]
+	333
+	333 -> 1000 [color=royalblue]
+	336
+	336 -> 168 [color=brown]
+	339
+	1018
+	339 -> 1018 [color=royalblue]
+	509
+	1018 -> 509 [color=brown]
+	1528
+	509 -> 1528 [color=royalblue]
+	764
+	1528 -> 764 [color=brown]
+	764 -> 382 [color=brown]
+	342
+	342 -> 171 [color=brown]
+	343
+	1030
+	343 -> 1030 [color=royalblue]
+	515
+	1030 -> 515 [color=brown]
+	1546
+	515 -> 1546 [color=royalblue]
+	773
+	1546 -> 773 [color=brown]
+	2320
+	773 -> 2320 [color=royalblue]
+	1160
+	2320 -> 1160 [color=brown]
+	1160 -> 580 [color=brown]
+	345
+	1036
+	345 -> 1036 [color=royalblue]
+	518
+	1036 -> 518 [color=brown]
+	518 -> 259 [color=brown]
+	348
+	348 -> 174 [color=brown]
+	349
+	1048
+	349 -> 1048 [color=royalblue]
+	524
+	1048 -> 524 [color=brown]
+	524 -> 262 [color=brown]
+	351
+	1054
+	351 -> 1054 [color=royalblue]
+	527
+	1054 -> 527 [color=brown]
+	1582
+	527 -> 1582 [color=royalblue]
+	791
+	1582 -> 791 [color=brown]
+	2374
+	791 -> 2374 [color=royalblue]
+	1187
+	2374 -> 1187 [color=brown]
+	3562
+	1187 -> 3562 [color=royalblue]
+	1781
+	3562 -> 1781 [color=brown]
+	5344
+	1781 -> 5344 [color=royalblue]
+	2672
+	5344 -> 2672 [color=brown]
+	2672 -> 1336 [color=brown]
+	354
+	354 -> 177 [color=brown]
+	357
+	1072
+	357 -> 1072 [color=royalblue]
+	536
+	1072 -> 536 [color=brown]
+	536 -> 268 [color=brown]
+	360
+	360 -> 180 [color=brown]
+	361
+	1084
+	361 -> 1084 [color=royalblue]
+	542
+	1084 -> 542 [color=brown]
+	542 -> 271 [color=brown]
+	363
+	1090
+	363 -> 1090 [color=royalblue]
+	545
+	1090 -> 545 [color=brown]
+	1636
+	545 -> 1636 [color=royalblue]
+	818
+	1636 -> 818 [color=brown]
+	409
+	818 -> 409 [color=brown]
+	1228
+	409 -> 1228 [color=royalblue]
+	614
+	1228 -> 614 [color=brown]
+	614 -> 307 [color=brown]
+	366
+	366 -> 183 [color=brown]
+	367
+	1102
+	367 -> 1102 [color=royalblue]
+	551
+	1102 -> 551 [color=brown]
+	1654
+	551 -> 1654 [color=royalblue]
+	827
+	1654 -> 827 [color=brown]
+	2482
+	827 -> 2482 [color=royalblue]
+	1241
+	2482 -> 1241 [color=brown]
+	3724
+	1241 -> 3724 [color=royalblue]
+	1862
+	3724 -> 1862 [color=brown]
+	931
+	1862 -> 931 [color=brown]
+	2794
+	931 -> 2794 [color=royalblue]
+	1397
+	2794 -> 1397 [color=brown]
+	4192
+	1397 -> 4192 [color=royalblue]
+	2096
+	4192 -> 2096 [color=brown]
+	2096 -> 1048 [color=brown]
+	369
+	1108
+	369 -> 1108 [color=royalblue]
+	554
+	1108 -> 554 [color=brown]
+	554 -> 277 [color=brown]
+	372
+	372 -> 186 [color=brown]
+	375
+	1126
+	375 -> 1126 [color=royalblue]
+	563
+	1126 -> 563 [color=brown]
+	1690
+	563 -> 1690 [color=royalblue]
+	845
+	1690 -> 845 [color=brown]
+	2536
+	845 -> 2536 [color=royalblue]
+	1268
+	2536 -> 1268 [color=brown]
+	1268 -> 634 [color=brown]
+	378
+	378 -> 189 [color=brown]
+	379
+	1138
+	379 -> 1138 [color=royalblue]
+	569
+	1138 -> 569 [color=brown]
+	1708
+	569 -> 1708 [color=royalblue]
+	854
+	1708 -> 854 [color=brown]
+	427
+	854 -> 427 [color=brown]
+	1282
+	427 -> 1282 [color=royalblue]
+	641
+	1282 -> 641 [color=brown]
+	1924
+	641 -> 1924 [color=royalblue]
+	962
+	1924 -> 962 [color=brown]
+	481
+	962 -> 481 [color=brown]
+	1444
+	481 -> 1444 [color=royalblue]
+	722
+	1444 -> 722 [color=brown]
+	722 -> 361 [color=brown]
+	381
+	1144
+	381 -> 1144 [color=royalblue]
+	572
+	1144 -> 572 [color=brown]
+	572 -> 286 [color=brown]
+	384
+	384 -> 192 [color=brown]
+	385
+	1156
+	385 -> 1156 [color=royalblue]
+	578
+	1156 -> 578 [color=brown]
+	578 -> 289 [color=brown]
+	387
+	1162
+	387 -> 1162 [color=royalblue]
+	581
+	1162 -> 581 [color=brown]
+	1744
+	581 -> 1744 [color=royalblue]
+	872
+	1744 -> 872 [color=brown]
+	872 -> 436 [color=brown]
+	390
+	390 -> 195 [color=brown]
+	393
+	1180
+	393 -> 1180 [color=royalblue]
+	590
+	1180 -> 590 [color=brown]
+	590 -> 295 [color=brown]
+	396
+	396 -> 198 [color=brown]
+	397
+	1192
+	397 -> 1192 [color=royalblue]
+	596
+	1192 -> 596 [color=brown]
+	596 -> 298 [color=brown]
+	399
+	1198
+	399 -> 1198 [color=royalblue]
+	599
+	1198 -> 599 [color=brown]
+	1798
+	599 -> 1798 [color=royalblue]
+	899
+	1798 -> 899 [color=brown]
+	2698
+	899 -> 2698 [color=royalblue]
+	1349
+	2698 -> 1349 [color=brown]
+	4048
+	1349 -> 4048 [color=royalblue]
+	2024
+	4048 -> 2024 [color=brown]
+	2024 -> 1012 [color=brown]
+	402
+	402 -> 201 [color=brown]
+	403
+	1210
+	403 -> 1210 [color=royalblue]
+	605
+	1210 -> 605 [color=brown]
+	1816
+	605 -> 1816 [color=royalblue]
+	908
+	1816 -> 908 [color=brown]
+	908 -> 454 [color=brown]
+	405
+	1216
+	405 -> 1216 [color=royalblue]
+	608
+	1216 -> 608 [color=brown]
+	608 -> 304 [color=brown]
+	408
+	408 -> 204 [color=brown]
+	411
+	1234
+	411 -> 1234 [color=royalblue]
+	617
+	1234 -> 617 [color=brown]
+	1852
+	617 -> 1852 [color=royalblue]
+	926
+	1852 -> 926 [color=brown]
+	463
+	926 -> 463 [color=brown]
+	1390
+	463 -> 1390 [color=royalblue]
+	695
+	1390 -> 695 [color=brown]
+	2086
+	695 -> 2086 [color=royalblue]
+	1043
+	2086 -> 1043 [color=brown]
+	3130
+	1043 -> 3130 [color=royalblue]
+	1565
+	3130 -> 1565 [color=brown]
+	4696
+	1565 -> 4696 [color=royalblue]
+	2348
+	4696 -> 2348 [color=brown]
+	2348 -> 1174 [color=brown]
+	414
+	414 -> 207 [color=brown]
+	417
+	1252
+	417 -> 1252 [color=royalblue]
+	626
+	1252 -> 626 [color=brown]
+	626 -> 313 [color=brown]
+	420
+	420 -> 210 [color=brown]
+	421
+	1264
+	421 -> 1264 [color=royalblue]
+	632
+	1264 -> 632 [color=brown]
+	632 -> 316 [color=brown]
+	423
+	1270
+	423 -> 1270 [color=royalblue]
+	635
+	1270 -> 635 [color=brown]
+	1906
+	635 -> 1906 [color=royalblue]
+	953
+	1906 -> 953 [color=brown]
+	2860
+	953 -> 2860 [color=royalblue]
+	1430
+	2860 -> 1430 [color=brown]
+	715
+	1430 -> 715 [color=brown]
+	2146
+	715 -> 2146 [color=royalblue]
+	1073
+	2146 -> 1073 [color=brown]
+	3220
+	1073 -> 3220 [color=royalblue]
+	1610
+	3220 -> 1610 [color=brown]
+	805
+	1610 -> 805 [color=brown]
+	2416
+	805 -> 2416 [color=royalblue]
+	1208
+	2416 -> 1208 [color=brown]
+	1208 -> 604 [color=brown]
+	426
+	426 -> 213 [color=brown]
+	429
+	1288
+	429 -> 1288 [color=royalblue]
+	644
+	1288 -> 644 [color=brown]
+	644 -> 322 [color=brown]
+	432
+	432 -> 216 [color=brown]
+	435
+	1306
+	435 -> 1306 [color=royalblue]
+	653
+	1306 -> 653 [color=brown]
+	1960
+	653 -> 1960 [color=royalblue]
+	980
+	1960 -> 980 [color=brown]
+	980 -> 490 [color=brown]
+	438
+	438 -> 219 [color=brown]
+	439
+	1318
+	439 -> 1318 [color=royalblue]
+	659
+	1318 -> 659 [color=brown]
+	1978
+	659 -> 1978 [color=royalblue]
+	989
+	1978 -> 989 [color=brown]
+	2968
+	989 -> 2968 [color=royalblue]
+	1484
+	2968 -> 1484 [color=brown]
+	1484 -> 742 [color=brown]
+	441
+	1324
+	441 -> 1324 [color=royalblue]
+	662
+	1324 -> 662 [color=brown]
+	662 -> 331 [color=brown]
+	444
+	444 -> 222 [color=brown]
+	447
+	1342
+	447 -> 1342 [color=royalblue]
+	671
+	1342 -> 671 [color=brown]
+	2014
+	671 -> 2014 [color=royalblue]
+	1007
+	2014 -> 1007 [color=brown]
+	3022
+	1007 -> 3022 [color=royalblue]
+	1511
+	3022 -> 1511 [color=brown]
+	4534
+	1511 -> 4534 [color=royalblue]
+	2267
+	4534 -> 2267 [color=brown]
+	6802
+	2267 -> 6802 [color=royalblue]
+	3401
+	6802 -> 3401 [color=brown]
+	10204
+	3401 -> 10204 [color=royalblue]
+	5102
+	10204 -> 5102 [color=brown]
+	2551
+	5102 -> 2551 [color=brown]
+	7654
+	2551 -> 7654 [color=royalblue]
+	3827
+	7654 -> 3827 [color=brown]
+	11482
+	3827 -> 11482 [color=royalblue]
+	5741
+	11482 -> 5741 [color=brown]
+	17224
+	5741 -> 17224 [color=royalblue]
+	8612
+	17224 -> 8612 [color=brown]
+	4306
+	8612 -> 4306 [color=brown]
+	2153
+	4306 -> 2153 [color=brown]
+	6460
+	2153 -> 6460 [color=royalblue]
+	3230
+	6460 -> 3230 [color=brown]
+	1615
+	3230 -> 1615 [color=brown]
+	4846
+	1615 -> 4846 [color=royalblue]
+	2423
+	4846 -> 2423 [color=brown]
+	7270
+	2423 -> 7270 [color=royalblue]
+	3635
+	7270 -> 3635 [color=brown]
+	10906
+	3635 -> 10906 [color=royalblue]
+	5453
+	10906 -> 5453 [color=brown]
+	16360
+	5453 -> 16360 [color=royalblue]
+	8180
+	16360 -> 8180 [color=brown]
+	4090
+	8180 -> 4090 [color=brown]
+	2045
+	4090 -> 2045 [color=brown]
+	6136
+	2045 -> 6136 [color=royalblue]
+	3068
+	6136 -> 3068 [color=brown]
+	1534
+	3068 -> 1534 [color=brown]
+	767
+	1534 -> 767 [color=brown]
+	2302
+	767 -> 2302 [color=royalblue]
+	1151
+	2302 -> 1151 [color=brown]
+	3454
+	1151 -> 3454 [color=royalblue]
+	1727
+	3454 -> 1727 [color=brown]
+	5182
+	1727 -> 5182 [color=royalblue]
+	2591
+	5182 -> 2591 [color=brown]
+	7774
+	2591 -> 7774 [color=royalblue]
+	3887
+	7774 -> 3887 [color=brown]
+	11662
+	3887 -> 11662 [color=royalblue]
+	5831
+	11662 -> 5831 [color=brown]
+	17494
+	5831 -> 17494 [color=royalblue]
+	8747
+	17494 -> 8747 [color=brown]
+	26242
+	8747 -> 26242 [color=royalblue]
+	13121
+	26242 -> 13121 [color=brown]
+	39364
+	13121 -> 39364 [color=royalblue]
+	19682
+	39364 -> 19682 [color=brown]
+	9841
+	19682 -> 9841 [color=brown]
+	29524
+	9841 -> 29524 [color=royalblue]
+	14762
+	29524 -> 14762 [color=brown]
+	7381
+	14762 -> 7381 [color=brown]
+	22144
+	7381 -> 22144 [color=royalblue]
+	11072
+	22144 -> 11072 [color=brown]
+	5536
+	11072 -> 5536 [color=brown]
+	2768
+	5536 -> 2768 [color=brown]
+	2768 -> 1384 [color=brown]
+	450
+	450 -> 225 [color=brown]
+	451
+	1354
+	451 -> 1354 [color=royalblue]
+	677
+	1354 -> 677 [color=brown]
+	2032
+	677 -> 2032 [color=royalblue]
+	1016
+	2032 -> 1016 [color=brown]
+	1016 -> 508 [color=brown]
+	453
+	1360
+	453 -> 1360 [color=royalblue]
+	680
+	1360 -> 680 [color=brown]
+	680 -> 340 [color=brown]
+	456
+	456 -> 228 [color=brown]
+	457
+	1372
+	457 -> 1372 [color=royalblue]
+	686
+	1372 -> 686 [color=brown]
+	686 -> 343 [color=brown]
+	459
+	1378
+	459 -> 1378 [color=royalblue]
+	689
+	1378 -> 689 [color=brown]
+	2068
+	689 -> 2068 [color=royalblue]
+	1034
+	2068 -> 1034 [color=brown]
+	517
+	1034 -> 517 [color=brown]
+	1552
+	517 -> 1552 [color=royalblue]
+	776
+	1552 -> 776 [color=brown]
+	776 -> 388 [color=brown]
+	462
+	462 -> 231 [color=brown]
+	465
+	1396
+	465 -> 1396 [color=royalblue]
+	698
+	1396 -> 698 [color=brown]
+	698 -> 349 [color=brown]
+	468
+	468 -> 234 [color=brown]
+	469
+	1408
+	469 -> 1408 [color=royalblue]
+	704
+	1408 -> 704 [color=brown]
+	704 -> 352 [color=brown]
+	471
+	1414
+	471 -> 1414 [color=royalblue]
+	707
+	1414 -> 707 [color=brown]
+	2122
+	707 -> 2122 [color=royalblue]
+	1061
+	2122 -> 1061 [color=brown]
+	3184
+	1061 -> 3184 [color=royalblue]
+	1592
+	3184 -> 1592 [color=brown]
+	1592 -> 796 [color=brown]
+	474
+	474 -> 237 [color=brown]
+	475
+	1426
+	475 -> 1426 [color=royalblue]
+	713
+	1426 -> 713 [color=brown]
+	2140
+	713 -> 2140 [color=royalblue]
+	1070
+	2140 -> 1070 [color=brown]
+	535
+	1070 -> 535 [color=brown]
+	1606
+	535 -> 1606 [color=royalblue]
+	803
+	1606 -> 803 [color=brown]
+	2410
+	803 -> 2410 [color=royalblue]
+	1205
+	2410 -> 1205 [color=brown]
+	3616
+	1205 -> 3616 [color=royalblue]
+	1808
+	3616 -> 1808 [color=brown]
+	1808 -> 904 [color=brown]
+	477
+	1432
+	477 -> 1432 [color=royalblue]
+	716
+	1432 -> 716 [color=brown]
+	716 -> 358 [color=brown]
+	480
+	480 -> 240 [color=brown]
+	483
+	1450
+	483 -> 1450 [color=royalblue]
+	725
+	1450 -> 725 [color=brown]
+	2176
+	725 -> 2176 [color=royalblue]
+	1088
+	2176 -> 1088 [color=brown]
+	1088 -> 544 [color=brown]
+	486
+	486 -> 243 [color=brown]
+	487
+	1462
+	487 -> 1462 [color=royalblue]
+	731
+	1462 -> 731 [color=brown]
+	2194
+	731 -> 2194 [color=royalblue]
+	1097
+	2194 -> 1097 [color=brown]
+	3292
+	1097 -> 3292 [color=royalblue]
+	1646
+	3292 -> 1646 [color=brown]
+	823
+	1646 -> 823 [color=brown]
+	2470
+	823 -> 2470 [color=royalblue]
+	1235
+	2470 -> 1235 [color=brown]
+	3706
+	1235 -> 3706 [color=royalblue]
+	1853
+	3706 -> 1853 [color=brown]
+	5560
+	1853 -> 5560 [color=royalblue]
+	2780
+	5560 -> 2780 [color=brown]
+	2780 -> 1390 [color=brown]
+	489
+	1468
+	489 -> 1468 [color=royalblue]
+	734
+	1468 -> 734 [color=brown]
+	734 -> 367 [color=brown]
+	492
+	492 -> 246 [color=brown]
+	493
+	1480
+	493 -> 1480 [color=royalblue]
+	740
+	1480 -> 740 [color=brown]
+	740 -> 370 [color=brown]
+	495
+	1486
+	495 -> 1486 [color=royalblue]
+	743
+	1486 -> 743 [color=brown]
+	2230
+	743 -> 2230 [color=royalblue]
+	1115
+	2230 -> 1115 [color=brown]
+	3346
+	1115 -> 3346 [color=royalblue]
+	1673
+	3346 -> 1673 [color=brown]
+	5020
+	1673 -> 5020 [color=royalblue]
+	2510
+	5020 -> 2510 [color=brown]
+	1255
+	2510 -> 1255 [color=brown]
+	3766
+	1255 -> 3766 [color=royalblue]
+	1883
+	3766 -> 1883 [color=brown]
+	5650
+	1883 -> 5650 [color=royalblue]
+	2825
+	5650 -> 2825 [color=brown]
+	8476
+	2825 -> 8476 [color=royalblue]
+	4238
+	8476 -> 4238 [color=brown]
+	2119
+	4238 -> 2119 [color=brown]
+	6358
+	2119 -> 6358 [color=royalblue]
+	3179
+	6358 -> 3179 [color=brown]
+	9538
+	3179 -> 9538 [color=royalblue]
+	4769
+	9538 -> 4769 [color=brown]
+	14308
+	4769 -> 14308 [color=royalblue]
+	7154
+	14308 -> 7154 [color=brown]
+	3577
+	7154 -> 3577 [color=brown]
+	10732
+	3577 -> 10732 [color=royalblue]
+	5366
+	10732 -> 5366 [color=brown]
+	2683
+	5366 -> 2683 [color=brown]
+	8050
+	2683 -> 8050 [color=royalblue]
+	4025
+	8050 -> 4025 [color=brown]
+	12076
+	4025 -> 12076 [color=royalblue]
+	6038
+	12076 -> 6038 [color=brown]
+	3019
+	6038 -> 3019 [color=brown]
+	9058
+	3019 -> 9058 [color=royalblue]
+	4529
+	9058 -> 4529 [color=brown]
+	13588
+	4529 -> 13588 [color=royalblue]
+	6794
+	13588 -> 6794 [color=brown]
+	3397
+	6794 -> 3397 [color=brown]
+	10192
+	3397 -> 10192 [color=royalblue]
+	5096
+	10192 -> 5096 [color=brown]
+	2548
+	5096 -> 2548 [color=brown]
+	1274
+	2548 -> 1274 [color=brown]
+	637
+	1274 -> 637 [color=brown]
+	1912
+	637 -> 1912 [color=royalblue]
+	956
+	1912 -> 956 [color=brown]
+	956 -> 478 [color=brown]
+	498
+	498 -> 249 [color=brown]
+}
